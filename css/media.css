@@ -1,0 +1,442 @@
+/* mobile */
+
+@media(max-width:660px){
+	
+		/* header */
+		
+		.nav-item a:hover::after{width:0;}	
+			#banner{ background:url(../images/bg-image22.jpg);
+						height:140vh;
+						background-size:cover;
+						background-position:center;
+						width:100%;}
+			#banner .info{width:100%;}
+			.banner-row{display:flex;
+						flex-wrap:wrap;}
+			.image{width:90%;
+					height:40vh;
+					}	
+			.info{padding-left:20px;
+				  padding-top:120%;}		
+			
+
+.image img{position:absolute;
+          height:140%;
+		  bottom:70%;
+		  left:28%;}	
+.R{width:10%;}	
+
+
+						.icons{
+							display:flex;
+							padding-left:10px;
+		
+									}
+									
+							.icons a::after{
+					
+										top:0%;}		
+
+				  
+		  /* about-me */
+		  
+		
+			.about-row{
+				  width:90%;
+				  display:flex;
+				  flex-wrap:wrap;
+				  padding:10px;
+				  margin:auto;
+				  
+			}
+			.about-col1{
+				width:100%;
+
+			} 
+			.about-col{
+							width:100%;
+
+						}
+
+			/* my-skills */
+
+		.skills-col{
+				width:100%;
+		}
+
+		 .skills-row{
+			 flex-wrap:wrap;
+		 } 		
+
+
+
+
+
+		 .skills_main{
+			width: 100%;
+			display: grid;
+			grid-template-columns: repeat(1, 1fr);
+			grid-row-gap: 30px;
+			grid-column-gap: 50px;
+		}
+
+
+		
+
+
+	/* my-creation	 */
+	
+				.creation-row{
+		width:100%;
+		display:flex;
+		flex-wrap:wrap;
+		padding:30px;
+}
+
+.card-container{
+		width:90%;
+		margin:20px;
+		
+		
+}
+
+				/* contact */
+			
+											.contact-row{
+													width:100%;
+													display:flex;
+													flex-wrap:wrap;
+													
+													
+											}
+											.contact-box{
+													width:90%;
+											}
+											.contact-col{
+													width:100%;
+													
+											}
+											
+											.contact-box{
+													height:23vh;
+											}
+											
+												#contact-section{
+												height:auto;}
+			
+										.footer-section h3{
+												
+											
+												padding-bottom:20px;
+												text-align:center;
+												font-size:16px;
+										}
+										
+										
+										
+										
+
+
+
+
+
+		 
+		  
+						
+						
+
+
+
+}
+
+/* ipad */
+
+@media(min-width:661px){
+	
+	
+			/* header */
+			
+			.nav-item a:hover::after{width:0;}	
+			#banner{ background:url(../images/bg-image22.jpg);
+						height:120vh;
+						background-size:cover;
+						background-position:center;
+						width:100%;}
+						
+			#banner .info{width:100%;}
+			.banner-row{display:flex;
+						flex-wrap:wrap;}
+			.image{width:90%;
+					height:40vh;
+					}	
+			.info{padding-top:110%;
+					padding-left:10%;
+				  }		
+			
+
+				.image img{position:absolute;
+						  height:140%;
+						  bottom:70%;
+						  left:15%;}	
+				.R{width:10%;}	
+
+						.icons{
+							display:flex;
+							padding-left:80px;
+		
+									}
+									
+									.icons a::after{
+					
+										top:0%;}
+					  
+			
+						
+						
+								  
+		  /* about-me */
+		  
+		
+			.about-row{
+				  width:90%;
+				  display:flex;
+				  padding:10px;
+				  margin:auto;
+				  
+			}
+			.about-col{
+				width:50%;
+
+			}  
+			.about-col1{
+				width:50%;
+
+			}
+			
+			
+		/* my-skills */
+
+		.skills-col{
+				width:100%;
+		}
+		
+		.skills-row{
+			 flex-wrap:wrap;
+		 } 		
+
+
+
+
+		 .skills_main{
+			width: 100%;
+			display: grid;
+			grid-template-columns: repeat(2, 1fr);
+			grid-row-gap: 30px;
+			grid-column-gap: 50px;
+		}
+
+
+
+
+
+
+
+
+
+	.creation-row{
+		width:100%;
+		display:flex;
+		
+		padding:30px;
+}
+
+.card-container{
+		width:80%;
+		margin:20px;
+		
+		
+}
+
+		/* contact */
+			
+											.contact-row{
+													width:100%;
+													display:flex;
+													flex-wrap:wrap;
+													margin:auto;
+													
+											}
+											.contact-col{
+													width:100%;
+													margin:auto;
+											}
+											
+											
+											.contact-box{
+													height:15vh;
+											}
+											
+												#contact-section{
+												height:150vh;}
+			
+			
+											.footer-section h3{
+												font-size:20px;
+												padding-top:50px;
+												text-align:center;
+												padding-bottom:50px;
+										}
+										
+										
+										
+
+
+
+
+		 
+		  
+
+		  
+						
+
+
+
+}
+
+
+/* lap */
+
+@media(min-width:960px)
+{
+	
+		/* header */
+		
+	.nav-item a:hover::after{width:80%;}		
+	#banner{ background:url(../images/bg-image22.jpg);
+		height:100vh;
+		background-size:cover;
+		background-position:center;
+		width:100%;
+		
+		}
+		
+	.banner-row{width:100%;
+				display:flex;}
+	.info{width:50%;}
+	.image{width:55%;
+			height:60%;}
+	.image img{position:absolute;
+				width:75%;
+						  height:140%;
+						  bottom:0%;
+						  left:20%;}		
+			
+			
+		
+	.info{padding-top:13%;
+		  padding-left:10%;	
+		  width:50%;}
+		  
+		  .icons{
+			padding-top:2%;
+		display:flex;
+		padding-left:9%;
+		
+		
+		
+}
+
+			.icons a::after{
+					
+			top:-100%;}
+					  
+		  
+		  /* about-me */
+		  
+		
+			.about-row{
+				  width:90%;
+				  display:flex;
+				  padding:100px;
+				  margin:auto;
+				  
+			}
+			.about-col{
+				width:50%;
+
+			}  
+			.about-col1{
+				width:50%;
+
+			} 
+		  
+	
+
+/* my-skills */
+
+		.skills-col{
+				width:50%;
+		}
+
+
+
+		.skills_main{
+			width: 100%;
+			display: grid;
+			grid-template-columns: repeat(2, 1fr);
+			grid-row-gap: 30px;
+			grid-column-gap: 50px;
+		}
+
+
+
+
+
+
+
+		
+		
+	.creation-row{
+		width:100%;
+		display:flex;
+		padding:30px;
+		
+}
+
+.card-container{
+		width:50%;
+		margin:20px;
+		
+		
+}
+			/* contact */
+											#contact-section{
+												height:165vh;}
+											.contact-row{
+													width:100%;
+													display:flex;
+													margin:auto;
+													
+											}
+											.contact-col{
+													width:50%;
+													margin:auto;
+											}
+											
+											.contact-box{
+													height:23vh;
+											}
+
+											
+											
+											.footer-section h3{
+												font-size:20px;
+												padding-top:50px;
+											text-align:center;
+												padding-bottom:50px;
+										}
+										
+										
+										
+
+									}
